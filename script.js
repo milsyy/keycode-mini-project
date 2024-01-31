@@ -8,4 +8,4 @@ let onKeyPress = (e) => {
   code.textContent = e.code;
 };
 
-document.body.addEventListener("keypress", onKeyPress);
+window.addEventListener("keydown", onKeyPress);
