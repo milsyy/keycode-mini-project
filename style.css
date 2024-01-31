@@ -2,17 +2,32 @@ body {
   background-color: antiquewhite;
 }
 
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+p {
+  margin-top: 90px;
+}
+
 small {
   font-size: 15px;
 }
 
 small,
+h1,
+p,
 .key {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-  height: 60vh;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
