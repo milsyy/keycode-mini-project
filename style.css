@@ -9,14 +9,16 @@ p {
 
 h1 {
   margin-top: 50px;
+  font-size: 50px;
 }
 
 p {
+  font-size: 20px;
   margin-top: 90px;
 }
 
 small {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 small,
@@ -43,8 +45,8 @@ p,
   border-radius: 5px;
   background-color: whitesmoke;
   margin-top: 10px;
-  height: 50px;
-  width: 100px;
+  height: 65px;
+  width: 170px;
   font-weight: bold;
   font-size: 18px;
 }
