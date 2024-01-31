@@ -1,0 +1,35 @@
+body {
+  background-color: antiquewhite;
+}
+
+small {
+  font-size: 15px;
+}
+
+small,
+.key {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px ridge #999;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 18px;
+}
